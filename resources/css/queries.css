@@ -17,7 +17,7 @@
 @media only screen and (max-width: 1023px) {
   body { font-size: 18px }
   section { padding: 60px 0; }
-  
+  .main-nav { display: block; }
   .long-copy {
     width: 80%;
     padding: 10%;
@@ -56,6 +56,32 @@
     margin: 0 0 4% 0;
   }
   .main-nav { display: none; }
+  .mobile-nav-icon {display: inline-block; }
+  .main-nav {
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  .main-nav li {
+    display: block;
+  }
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+  .sticky .mobile-nav-icon a:hover {
+    border: 0;
+  }
+  .sticky .main-nav { margin-top: 10px; }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited { padding: 10px 0; }
+  .stick .mobile-nav-icon { margin-top: 10px; }
+  .sticky .mobile-nav-icon i { color: #555; }
+
   h1 { font-size: 180%; }
   h2 { font-size: 150%; }
   .long-copy {
