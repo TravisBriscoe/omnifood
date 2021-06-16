@@ -4,15 +4,28 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Omnifood is a premium food service with a mission to bring affordable and healthy meals to many people as possible">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style-min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries-min.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
         <title>Omnifood</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="resources/favicons/site.webmanifest">
+        <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+
     </head>
     <body>
         <header>
@@ -38,7 +51,7 @@
 
         <section class="section-features js--section-features" id="features">
             <div class="row">
-                <h2 id="features">Get food fast &mdash; not fast food</h2>
+                <h2>Get food fast &mdash; not fast food</h2>
                 <p class="long-copy">
                     Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
                 </div>
@@ -68,9 +81,9 @@
                         </p>
                     </div>
                 </div>
-            </div>
         </section>
         <section class="section-meals" id="meals">
+            <h6 style="display: none;">Meals</h6>
             <ul class="meals-showcase clearfix">
                 <li>
                     <figure class="meal-photo">
@@ -80,7 +93,7 @@
                 <li>    
                     <figure class="meal-photo">
                         <img alt="Simple italian pizza with cherry tomatoes" src="resources/img/2.jpg">
-                    </figure class="meal-photo">
+                    </figure>
                 </li>
                 <li>
                     <figure class="meal-photo">
@@ -150,7 +163,7 @@
             </div>
             <div class="row js--wp-3">
                 <div class="col span-1-of-4 box">
-                    <img src="resources/img/lisbon-3.jpg">
+                    <img alt="Lisbon" src="resources/img/lisbon-3.jpg">
                     <h3>Lisbon</h3>
                     <div class="city-feature">
                         <i class="ion-ios-person icon-small"></i>
@@ -166,7 +179,7 @@
                     </div>     
                 </div>
                 <div class="col span-1-of-4 box">
-                    <img src="resources/img/san-francisco.jpg">
+                    <img alt="San Francisco" src="resources/img/san-francisco.jpg">
                     <h3>San Francisco</h3>
                     <div class="city-feature">
                         <i class="ion-ios-person icon-small"></i>
@@ -182,7 +195,7 @@
                     </div>
                 </div>
                 <div class="col span-1-of-4 box">
-                    <img src="resources/img/berlin.jpg">
+                    <img alt="Berlin" src="resources/img/berlin.jpg">
                     <h3>Berlin</h3>
                     <div class="city-feature">
                         <i class="ion-ios-person icon-small"></i>
@@ -198,7 +211,7 @@
                     </div>      
                 </div>
                 <div class="col span-1-of-4 box">
-                    <img src="resources/img/london.jpg">
+                    <img alt="London" src="resources/img/london.jpg">
                     <h3>London</h3>
                     <div class="city-feature">
                         <i class="ion-ios-person icon-small"></i>
@@ -224,19 +237,19 @@
                 <div class="col span-1-of-3 box">
                     <blockquote>
                         Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-                        <cite><img src="resources/img/customer-1.jpg">Alberto Duncan</cite>
+                        <cite><img alt="Alberto Duncan" src="resources/img/customer-1.jpg">Alberto Duncan</cite>
                     </blockquote>    
                 </div>
                 <div class="col span-1-of-3 box">
                     <blockquote>
                         Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
-                        <cite><img src="resources/img/customer-2.jpg">Joana Silva</cite>
+                        <cite><img alt="Joana Silva" src="resources/img/customer-2.jpg">Joana Silva</cite>
                     </blockquote>
                 </div>
                 <div class="col span-1-of-3 box">
                     <blockquote>
                         I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
-                        <cite><img src="resources/img/customer-3.jpg">Milton Chapman</cite>
+                        <cite><img alt="Milton Chapman" src="resources/img/customer-3.jpg">Milton Chapman</cite>
                     </blockquote>
                 </div>
             </div>
@@ -371,7 +384,6 @@
                         </div>
                     </form>
                 </div>
-            </div>
             
         </section>
 
@@ -415,6 +427,6 @@
         <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
         <script src="vendors/js/jquery.waypoints.min.js"></script>
-        <script src="resources/js/script.js"></script>
+        <script src="resources/js/script-min.js"></script>
     </body>
 </html>
